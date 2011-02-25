@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">	
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<?php
+include ('/var/www/secure_files/gala_2011/html_header.php');
+?>
+</head>
+<body>
+	<div id="root">
+		<?php include ('/var/www/secure_files/top.php');?>
+		<div id="left" style="margin-top:0px;">
+			<?php include ('http://www.lsc.org/site/menu-include-3');?>
+			<!--<a href="http://www.lsc.org/women" alt="Link to WLC Page"><img src="/assets/images/WLC_mod.jpg" alt="Women's Leadership Console Logo" height="409" width="240" border="0"/></a>-->
+		</div>
+		
+		<div id="content">
+			<?php include ('/var/www/secure_files/gala_2011/gala2011.php');?>
+		</div>
+		
+		<div id="footer">
+			<?php include('http://www.lsc.org/site/menu-include'); ?>
+	        <ul>
+				<li>Liberty Science Center * Liberty State Park * 222 Jersey City Boulevard * Jersey City, NJ * 07305 * 201.200.1000 * sales@lsc.org</li>
+	       		<li> * copyright &copy; 2010 by Liberty Science Center</li></ul>
+		</div>
+	</div>
+		
+	</body>
+	</html>

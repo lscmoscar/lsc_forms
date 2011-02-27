@@ -86,7 +86,6 @@ if(isset($result) && $result->success)
 
 
 
-    //$sql = mysql_escape_string($sql);
     $c = mysql_connect("LOCALHOST", "MYSQL USER", "MYSQL PASSWORD");
 
     if($c)

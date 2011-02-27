@@ -442,7 +442,6 @@ function() {
         });
 
         var sal = $('#salutation');
-        //var salval = $('#salutation').val()
         if (sal.val() == "") {
                 sal.val($('option:first', sal).val());
                 }

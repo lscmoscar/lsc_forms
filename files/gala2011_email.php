@@ -58,10 +58,5 @@ $message->setContentType("text/html");
 //Send the message
 $sendit = $mailer->send($message);
 
-if ($sendit) {
 	}
-else {
-	//echo "Failure";
-	}
-}
 }

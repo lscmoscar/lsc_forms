@@ -1,6 +1,5 @@
 # Liberty Science Center's form & card processing template using [BrainTree's Payment Gateway PHP API](https://github.com/braintree/braintree_php)
 #### Minus CSS stylesheets, various javascript/jquery libraries, and BrainTree API info
-#### This example is specific to the [gala 2011 form](https://www.lsc.org/lsc_secure/gala2011)
 
 
 # What is this repo?
